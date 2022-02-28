@@ -1,6 +1,6 @@
 /*
 CSC3916 HW2
-Jeremy Gage
+Thien Nguyen
 File: Server.js
 Description: Web API for Movie API
  */
