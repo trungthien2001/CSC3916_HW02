@@ -82,31 +82,6 @@ router.route('/signin')
     }
 );
 
-/*
-router.route('/testcollection')
-    .delete(authController.isAuthenticated, function(req, res) {
-        console.log(req.body);
-        res = res.status(200);
-        if (req.get('Content-Type')) {
-            res = res.type(req.get('Content-Type'));
-        }
-        var o = getJSONObjectForMovieRequirement(req);
-        o.body={msg:"movie deleted."}
-        res.json(o);
-    }
-    )
-    .put(authJwtController.isAuthenticated, function(req, res) {
-        console.log(req.body);
-        res = res.status(200);
-        if (req.get('Content-Type')) {
-            res = res.type(req.get('Content-Type'));
-        }
-        var o = getJSONObjectForMovieRequirement(req);
-            o.body={msg:"movie updated."}
-        res.json(o);
-    }
-    );
-*/
 
 //implement movie route
 router.route('/movies')
